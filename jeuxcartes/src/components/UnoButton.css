@@ -1,0 +1,27 @@
+.uno-button {
+  position: fixed;
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  color: #333;
+  font-weight: bold;
+  padding: 25px 50px;
+  font-size: 32px;
+  border-radius: 15px;
+  z-index: 1500;
+  animation: bounce 0.5s infinite;
+  box-shadow: 0 10px 30px rgba(255, 215, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transform: translate(-50%, -50%);
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+}
+
+.uno-button:hover {
+  transform: translate(-50%, -50%) scale(1.15);
+}

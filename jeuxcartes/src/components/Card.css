@@ -1,0 +1,13 @@
+.card-value {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card-suit {
+  font-size: 32px;
+  margin-top: 5px;
+}
+
+.card.joker .card-value {
+  font-size: 16px;
+}
